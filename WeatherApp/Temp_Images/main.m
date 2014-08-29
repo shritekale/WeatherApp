@@ -1,8 +1,7 @@
 //
 //  main.m
-//  WeatherApp
+//  WhetherApp
 //
-//  Created by Shri on 27/08/2014.
 //  Copyright (c) 2014 Shri. All rights reserved.
 //
 

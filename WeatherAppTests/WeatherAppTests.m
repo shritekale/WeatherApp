@@ -2,7 +2,7 @@
 //  WeatherAppTests.m
 //  WeatherAppTests
 //
-//  Created by Davendra Patel on 27/08/2014.
+//  Created by Shri on 27/08/2014.
 //  Copyright (c) 2014 Shri. All rights reserved.
 //
 

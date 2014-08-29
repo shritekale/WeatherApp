@@ -12,15 +12,28 @@
 		3680C16119AE28A0001B9459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3680C16019AE28A0001B9459 /* UIKit.framework */; };
 		3680C16719AE28A0001B9459 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3680C16519AE28A0001B9459 /* InfoPlist.strings */; };
 		3680C16919AE28A0001B9459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3680C16819AE28A0001B9459 /* main.m */; };
-		3680C16D19AE28A0001B9459 /* WSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3680C16C19AE28A0001B9459 /* WSAppDelegate.m */; };
-		3680C17019AE28A0001B9459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3680C16E19AE28A0001B9459 /* Main.storyboard */; };
-		3680C17319AE28A0001B9459 /* WSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3680C17219AE28A0001B9459 /* WSViewController.m */; };
 		3680C17519AE28A0001B9459 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3680C17419AE28A0001B9459 /* Images.xcassets */; };
 		3680C17C19AE28A0001B9459 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3680C17B19AE28A0001B9459 /* XCTest.framework */; };
 		3680C17D19AE28A0001B9459 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3680C15C19AE28A0001B9459 /* Foundation.framework */; };
 		3680C17E19AE28A0001B9459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3680C16019AE28A0001B9459 /* UIKit.framework */; };
 		3680C18619AE28A0001B9459 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3680C18419AE28A0001B9459 /* InfoPlist.strings */; };
 		3680C18819AE28A0001B9459 /* WeatherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3680C18719AE28A0001B9459 /* WeatherAppTests.m */; };
+		3680C1A619AE2904001B9459 /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3680C19319AE2904001B9459 /* NSDate+Extensions.m */; };
+		3680C1A719AE2904001B9459 /* WSAPIDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3680C19519AE2904001B9459 /* WSAPIDownloader.m */; };
+		3680C1A919AE2904001B9459 /* WSForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3680C19A19AE2904001B9459 /* WSForecast.m */; };
+		3680C1AB19AE2904001B9459 /* WSCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3680C19F19AE2904001B9459 /* WSCustomTableViewCell.m */; };
+		3680C1AC19AE2904001B9459 /* WSDetailForcastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3680C1A119AE2904001B9459 /* WSDetailForcastViewController.m */; };
+		3680C1AD19AE2904001B9459 /* WSDetailForcastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3680C1A219AE2904001B9459 /* WSDetailForcastViewController.xib */; };
+		3680C1AE19AE2904001B9459 /* WSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3680C1A419AE2904001B9459 /* WSMainViewController.m */; };
+		3680C1AF19AE2904001B9459 /* WSMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3680C1A519AE2904001B9459 /* WSMainViewController.xib */; };
+		3680C1B619AE2A28001B9459 /* first_stage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3680C1B119AE2A28001B9459 /* first_stage.png */; };
+		3680C1B719AE2A28001B9459 /* ic_home_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 3680C1B219AE2A28001B9459 /* ic_home_location.png */; };
+		3680C1B919AE2A28001B9459 /* wathericons_0007_Layer-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 3680C1B419AE2A28001B9459 /* wathericons_0007_Layer-18.png */; };
+		3680C1BA19AE2A28001B9459 /* wathericons_0012_Layer-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 3680C1B519AE2A28001B9459 /* wathericons_0012_Layer-16.png */; };
+		3680C1BF19AE2B12001B9459 /* WSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3680C1BE19AE2B12001B9459 /* WSAppDelegate.m */; };
+		3680C1C119AE2E97001B9459 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3680C1C019AE2E97001B9459 /* Cities.plist */; };
+		36914EA319AF3A9300F6F09E /* WSCityForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 36914EA219AF3A9300F6F09E /* WSCityForecast.m */; };
+		36914EA619AF3BE000F6F09E /* WSCityForcastTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36914EA519AF3BE000F6F09E /* WSCityForcastTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,17 +55,38 @@
 		3680C16619AE28A0001B9459 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3680C16819AE28A0001B9459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3680C16A19AE28A0001B9459 /* WeatherApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeatherApp-Prefix.pch"; sourceTree = "<group>"; };
-		3680C16B19AE28A0001B9459 /* WSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSAppDelegate.h; sourceTree = "<group>"; };
-		3680C16C19AE28A0001B9459 /* WSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSAppDelegate.m; sourceTree = "<group>"; };
-		3680C16F19AE28A0001B9459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3680C17119AE28A0001B9459 /* WSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSViewController.h; sourceTree = "<group>"; };
-		3680C17219AE28A0001B9459 /* WSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSViewController.m; sourceTree = "<group>"; };
 		3680C17419AE28A0001B9459 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3680C17A19AE28A0001B9459 /* WeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3680C17B19AE28A0001B9459 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3680C18319AE28A0001B9459 /* WeatherAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherAppTests-Info.plist"; sourceTree = "<group>"; };
 		3680C18519AE28A0001B9459 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3680C18719AE28A0001B9459 /* WeatherAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherAppTests.m; sourceTree = "<group>"; };
+		3680C19219AE2904001B9459 /* NSDate+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extensions.h"; sourceTree = "<group>"; };
+		3680C19319AE2904001B9459 /* NSDate+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extensions.m"; sourceTree = "<group>"; };
+		3680C19419AE2904001B9459 /* WSAPIDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAPIDownloader.h; sourceTree = "<group>"; };
+		3680C19519AE2904001B9459 /* WSAPIDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAPIDownloader.m; sourceTree = "<group>"; };
+		3680C19919AE2904001B9459 /* WSForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSForecast.h; sourceTree = "<group>"; };
+		3680C19A19AE2904001B9459 /* WSForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSForecast.m; sourceTree = "<group>"; };
+		3680C19E19AE2904001B9459 /* WSCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCustomTableViewCell.h; sourceTree = "<group>"; };
+		3680C19F19AE2904001B9459 /* WSCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCustomTableViewCell.m; sourceTree = "<group>"; };
+		3680C1A019AE2904001B9459 /* WSDetailForcastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDetailForcastViewController.h; sourceTree = "<group>"; };
+		3680C1A119AE2904001B9459 /* WSDetailForcastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDetailForcastViewController.m; sourceTree = "<group>"; };
+		3680C1A219AE2904001B9459 /* WSDetailForcastViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSDetailForcastViewController.xib; sourceTree = "<group>"; };
+		3680C1A319AE2904001B9459 /* WSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMainViewController.h; sourceTree = "<group>"; };
+		3680C1A419AE2904001B9459 /* WSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMainViewController.m; sourceTree = "<group>"; };
+		3680C1A519AE2904001B9459 /* WSMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSMainViewController.xib; sourceTree = "<group>"; };
+		3680C1B119AE2A28001B9459 /* first_stage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_stage.png; sourceTree = "<group>"; };
+		3680C1B219AE2A28001B9459 /* ic_home_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_location.png; sourceTree = "<group>"; };
+		3680C1B419AE2A28001B9459 /* wathericons_0007_Layer-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wathericons_0007_Layer-18.png"; sourceTree = "<group>"; };
+		3680C1B519AE2A28001B9459 /* wathericons_0012_Layer-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wathericons_0012_Layer-16.png"; sourceTree = "<group>"; };
+		3680C1BD19AE2B12001B9459 /* WSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAppDelegate.h; sourceTree = "<group>"; };
+		3680C1BE19AE2B12001B9459 /* WSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAppDelegate.m; sourceTree = "<group>"; };
+		3680C1C019AE2E97001B9459 /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
+		36914EA119AF3A9300F6F09E /* WSCityForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCityForecast.h; sourceTree = "<group>"; };
+		36914EA219AF3A9300F6F09E /* WSCityForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCityForecast.m; sourceTree = "<group>"; };
+		36914EA419AF3BE000F6F09E /* WSCityForcastTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCityForcastTableViewCell.h; sourceTree = "<group>"; };
+		36914EA519AF3BE000F6F09E /* WSCityForcastTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCityForcastTableViewCell.m; sourceTree = "<group>"; };
+		36B22DE119B08198002D8E13 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +146,10 @@
 		3680C16219AE28A0001B9459 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				3680C16B19AE28A0001B9459 /* WSAppDelegate.h */,
-				3680C16C19AE28A0001B9459 /* WSAppDelegate.m */,
-				3680C16E19AE28A0001B9459 /* Main.storyboard */,
-				3680C17119AE28A0001B9459 /* WSViewController.h */,
-				3680C17219AE28A0001B9459 /* WSViewController.m */,
-				3680C17419AE28A0001B9459 /* Images.xcassets */,
+				3680C1BC19AE2B12001B9459 /* AppDelegate */,
+				3680C19B19AE2904001B9459 /* ViewControllers */,
+				3680C19819AE2904001B9459 /* Models */,
+				3680C19119AE2904001B9459 /* Managers */,
 				3680C16319AE28A0001B9459 /* Supporting Files */,
 			);
 			path = WeatherApp;
@@ -126,10 +158,14 @@
 		3680C16319AE28A0001B9459 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3680C1B019AE2A28001B9459 /* Temp_Images */,
+				3680C17419AE28A0001B9459 /* Images.xcassets */,
 				3680C16419AE28A0001B9459 /* WeatherApp-Info.plist */,
 				3680C16519AE28A0001B9459 /* InfoPlist.strings */,
 				3680C16819AE28A0001B9459 /* main.m */,
 				3680C16A19AE28A0001B9459 /* WeatherApp-Prefix.pch */,
+				3680C1C019AE2E97001B9459 /* Cities.plist */,
+				36B22DE119B08198002D8E13 /* Constants.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +186,65 @@
 				3680C18419AE28A0001B9459 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3680C19119AE2904001B9459 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3680C19219AE2904001B9459 /* NSDate+Extensions.h */,
+				3680C19319AE2904001B9459 /* NSDate+Extensions.m */,
+				3680C19419AE2904001B9459 /* WSAPIDownloader.h */,
+				3680C19519AE2904001B9459 /* WSAPIDownloader.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3680C19819AE2904001B9459 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3680C19919AE2904001B9459 /* WSForecast.h */,
+				3680C19A19AE2904001B9459 /* WSForecast.m */,
+				36914EA119AF3A9300F6F09E /* WSCityForecast.h */,
+				36914EA219AF3A9300F6F09E /* WSCityForecast.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3680C19B19AE2904001B9459 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3680C1A319AE2904001B9459 /* WSMainViewController.h */,
+				3680C1A419AE2904001B9459 /* WSMainViewController.m */,
+				3680C1A519AE2904001B9459 /* WSMainViewController.xib */,
+				36914EA419AF3BE000F6F09E /* WSCityForcastTableViewCell.h */,
+				36914EA519AF3BE000F6F09E /* WSCityForcastTableViewCell.m */,
+				3680C1A019AE2904001B9459 /* WSDetailForcastViewController.h */,
+				3680C1A119AE2904001B9459 /* WSDetailForcastViewController.m */,
+				3680C1A219AE2904001B9459 /* WSDetailForcastViewController.xib */,
+				3680C19E19AE2904001B9459 /* WSCustomTableViewCell.h */,
+				3680C19F19AE2904001B9459 /* WSCustomTableViewCell.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3680C1B019AE2A28001B9459 /* Temp_Images */ = {
+			isa = PBXGroup;
+			children = (
+				3680C1B119AE2A28001B9459 /* first_stage.png */,
+				3680C1B219AE2A28001B9459 /* ic_home_location.png */,
+				3680C1B419AE2A28001B9459 /* wathericons_0007_Layer-18.png */,
+				3680C1B519AE2A28001B9459 /* wathericons_0012_Layer-16.png */,
+			);
+			path = Temp_Images;
+			sourceTree = "<group>";
+		};
+		3680C1BC19AE2B12001B9459 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3680C1BD19AE2B12001B9459 /* WSAppDelegate.h */,
+				3680C1BE19AE2B12001B9459 /* WSAppDelegate.m */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +324,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3680C1AF19AE2904001B9459 /* WSMainViewController.xib in Resources */,
+				3680C1BA19AE2A28001B9459 /* wathericons_0012_Layer-16.png in Resources */,
+				3680C1AD19AE2904001B9459 /* WSDetailForcastViewController.xib in Resources */,
+				3680C1B619AE2A28001B9459 /* first_stage.png in Resources */,
+				3680C1B719AE2A28001B9459 /* ic_home_location.png in Resources */,
+				3680C1C119AE2E97001B9459 /* Cities.plist in Resources */,
 				3680C17519AE28A0001B9459 /* Images.xcassets in Resources */,
 				3680C16719AE28A0001B9459 /* InfoPlist.strings in Resources */,
-				3680C17019AE28A0001B9459 /* Main.storyboard in Resources */,
+				3680C1B919AE2A28001B9459 /* wathericons_0007_Layer-18.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +351,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3680C16D19AE28A0001B9459 /* WSAppDelegate.m in Sources */,
+				3680C1AB19AE2904001B9459 /* WSCustomTableViewCell.m in Sources */,
+				3680C1A719AE2904001B9459 /* WSAPIDownloader.m in Sources */,
+				36914EA319AF3A9300F6F09E /* WSCityForecast.m in Sources */,
+				3680C1BF19AE2B12001B9459 /* WSAppDelegate.m in Sources */,
+				3680C1A919AE2904001B9459 /* WSForecast.m in Sources */,
+				3680C1A619AE2904001B9459 /* NSDate+Extensions.m in Sources */,
 				3680C16919AE28A0001B9459 /* main.m in Sources */,
-				3680C17319AE28A0001B9459 /* WSViewController.m in Sources */,
+				36914EA619AF3BE000F6F09E /* WSCityForcastTableViewCell.m in Sources */,
+				3680C1AC19AE2904001B9459 /* WSDetailForcastViewController.m in Sources */,
+				3680C1AE19AE2904001B9459 /* WSMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +389,6 @@
 				3680C16619AE28A0001B9459 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3680C16E19AE28A0001B9459 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3680C16F19AE28A0001B9459 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		3680C18419AE28A0001B9459 /* InfoPlist.strings */ = {
@@ -457,6 +557,7 @@
 				3680C18D19AE28A0001B9459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3680C18E19AE28A0001B9459 /* Build configuration list for PBXNativeTarget "WeatherAppTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +566,7 @@
 				3680C19019AE28A0001B9459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

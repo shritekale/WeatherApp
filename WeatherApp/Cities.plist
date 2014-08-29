@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>cityName</key>
+		<string>London</string>
+		<key>cityID</key>
+		<string>4298960</string>
+	</dict>
+	<dict>
+		<key>cityName</key>
+		<string>Luton</string>
+		<key>cityID</key>
+		<string>2643339</string>
+	</dict>
+	<dict>
+		<key>cityName</key>
+		<string>Birmingham</string>
+		<key>cityID</key>
+		<string>2655603</string>
+	</dict>
+	<dict>
+		<key>cityName</key>
+		<string>Manchester</string>
+		<key>cityID</key>
+		<string>2643123</string>
+	</dict>
+</array>
+</plist>

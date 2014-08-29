@@ -2,17 +2,24 @@
 //  WSAppDelegate.m
 //  WeatherApp
 //
-//  Created by Davendra Patel on 27/08/2014.
+//  Created by Shri on 27/08/2014.
 //  Copyright (c) 2014 Shri. All rights reserved.
 //
 
 #import "WSAppDelegate.h"
+#import "WSMainViewController.h"
 
 @implementation WSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    WSMainViewController *mainViewController = [[WSMainViewController alloc] initWithNibName:@"WSMainViewController" bundle:nil];
+    UINavigationController *navigationController=[[UINavigationController alloc] initWithRootViewController:mainViewController];
+    self.window.rootViewController =navigationController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							
